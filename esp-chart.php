@@ -74,7 +74,7 @@ $conn->close();
 <script>
 
 var temp = <?php echo $temp; ?>;
-var ph = <?phzp echo $ph ?>;
+var ph = <?php echo $ph; ?>;
 var reading_time = <?php echo $reading_time; ?>;
 
 var chartT = new Highcharts.Chart({
